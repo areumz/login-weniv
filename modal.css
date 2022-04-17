@@ -1,0 +1,251 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+    font-size: 13px;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+/* container */
+.background {
+    width: 530px;
+    height: 720px;
+    margin: 10vh auto;
+}
+
+.container {
+    background-color: white;
+    width:520px;
+    height: 712px;
+    border: 1px solid #c4c4c4;
+    border-radius: 10px;
+}
+
+/* header */
+.header {
+    padding: 20px 188px 18px 188px;
+    border-bottom: 1px solid lightgray;
+    position: relative;
+}
+
+.header h2 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 125%;
+    width: 144px;
+    text-align: center;
+}
+
+.header img {
+    width: 16px;
+    position: absolute;
+    top: 22px;
+    right: 24px;
+    cursor: pointer;
+}
+
+/* login */
+main {
+    height: 100vh;
+    position: relative;
+}
+
+.form-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.oth_login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login strong {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin: 26px 127px 24px 24px;
+}
+
+.login p {
+    cursor: pointer;
+}
+
+.login p, .login a, .login span {
+    color: gray;
+}
+
+.login p img {
+    vertical-align: middle;
+}
+
+.login input {
+    width: 472px;
+    height: 50px;
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    color: #767676;
+    font-size: 16px;
+}
+
+.id-input {
+    margin: 0 24px 10px 24px;
+}
+
+.pass-input {
+    margin: 0 24px 17px 24px;
+}
+
+.txt-login {
+    margin: 0 351px 21px 28px;
+}
+
+.join-login {
+    letter-spacing: 0.1em;
+}
+
+.join-a {
+    margin: 20px 12px 38px 158px ;
+    font-size: 14px;
+}
+
+.join-login span {
+    font-size: 14px;
+}
+
+.idpass-a {
+    font-size: 14px;
+}
+
+span.or {
+    display: inline-block;
+    width: 26px;
+    height: 18px;
+    margin: 30px 2470px 20px 247px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.2;
+    position: relative;
+}
+
+span.or:before {
+    content: '';
+    position: absolute;
+    top:8px;
+    left: -225px;
+    background-color: gray;
+    width: 210px;
+    height: 1px;
+}
+
+span.or:after {
+    content: '';
+    position: absolute;
+    top:8px;
+    right: -225px;
+    background-color: gray;
+    width: 210px;
+    height: 1px;
+}
+
+.btn-login {
+    display: block;
+    border-radius: 5px;
+    width: 472px;
+    margin: 0 24px 20px 24px;
+    padding: 14px 209px 14px 209px;
+    border: none;
+    background-color: #2f80ed;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+    position: relative;
+}
+
+button.btn:hover {
+    opacity: 0.8;
+}
+
+a.btn {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    width: 472px;
+    height: 50px;
+    position: relative;
+}
+
+a.btn:hover {
+    opacity: 0.8;
+}
+
+a.btn2, a.btn3, a.btn4, a.btn5 {
+    margin-bottom: 10px;
+    color:gray;
+}
+
+a.btn2 {
+    border: 1.5px solid gray;
+    padding: 15px 154px 15px 178px;
+}
+
+a.btn2:before {
+    content: url(img/icon_google.png);
+    position: absolute;
+    top:10px;
+    left:10px;
+}
+
+a.btn3 {
+    border: 1.5px solid #4267B2;
+    padding: 15px 139px 15px 163px;
+}
+
+a.btn3:before {
+    content: url(img/icon_facebook.png);
+    position: absolute;
+    top:10px;
+    left:10px;
+}
+
+a.btn4 {
+    border: 1.5px solid #2db400;
+    padding: 15px 146px 15px 171px;
+}
+
+a.btn4:before {
+    content: url(img/icon_naver.png);
+    position: absolute;
+    top:10px;
+    left:10px;
+}
+
+a.btn5 {
+    border: 1.5px solid #ffe812;
+    padding: 15px 139px 15px 163px;
+}
+
+a.btn5:before {
+    content: url(img/icon_kakao.png);
+    position: absolute;
+    top:10px;
+    left:10px;
+}

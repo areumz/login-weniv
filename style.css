@@ -1,0 +1,57 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* util */
+.blind {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+}
+
+.container-login {
+    display: flex;
+    margin: 20vh auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    background-color: #fff;
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+}
+
+.title-logo {
+    width: 122px;
+    height: 24px;
+    margin: 38px 189px 0 189px;
+    background-image: url(./img/weniv-logo.png);
+    background-repeat: no-repeat;
+    background-size: 122px 30px;
+}
+
+.txt-login {
+    margin: 36px 115px 0 116px;
+    font-size: 16px;
+}
+
+.btn-login {
+    width: 440px;
+    margin: 32px 30px 30px 30px;
+    padding: 17px 189px 15px 190px;
+    background-color: #2F80ED;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 130%;
+}
