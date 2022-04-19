@@ -185,12 +185,22 @@ button.btn:hover {
 
 a.btn {
     display: block;
+    padding: 15px 14px;
     text-decoration: none;
     text-align: center;
     border-radius: 5px;
     width: 472px;
     height: 50px;
     position: relative;
+}
+
+a.btn::before {
+    float: left;
+    display: block;
+    content: '';
+    width: 22px;
+    height: 22px;
+    background-image: url(./img/css_sprites_g.png);
 }
 
 a.btn:hover {
@@ -204,48 +214,32 @@ a.btn2, a.btn3, a.btn4, a.btn5 {
 
 a.btn2 {
     border: 1.5px solid gray;
-    padding: 15px 154px 15px 178px;
 }
 
-a.btn2:before {
-    content: url(img/icon_google.png);
-    position: absolute;
-    top:10px;
-    left:10px;
+a.btn2::before {
+    background-position: -10px -10px;
 }
 
-a.btn3 {
+a.btn.btn3 {
     border: 1.5px solid #4267B2;
-    padding: 15px 139px 15px 163px;
 }
 
-a.btn3:before {
-    content: url(img/icon_facebook.png);
-    position: absolute;
-    top:10px;
-    left:10px;
+a.btn.btn3::before {
+    background-position: -94px -10px;
 }
 
 a.btn4 {
     border: 1.5px solid #2db400;
-    padding: 15px 146px 15px 171px;
 }
 
-a.btn4:before {
-    content: url(img/icon_naver.png);
-    position: absolute;
-    top:10px;
-    left:10px;
+a.btn4::before {
+    background-position: -10px -52px;
 }
 
 a.btn5 {
     border: 1.5px solid #ffe812;
-    padding: 15px 139px 15px 163px;
 }
 
-a.btn5:before {
-    content: url(img/icon_kakao.png);
-    position: absolute;
-    top:10px;
-    left:10px;
+a.btn5::before {
+    background-position: -52px -10px;
 }
