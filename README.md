@@ -1,6 +1,6 @@
 # login-weniv
 > 위니브 로그인 페이지 구현 (22.04.18)   
-> https://areumz.github.io/login-weniv/
+> https://areumz.github.io/login-weniv/   
 > html, css 연습을 위한 것이어서 첫 페이지에서 로그인 버튼 클릭시   
 모달창이 아닌 또 다른 페이지로 연결되도록 임시 작업
 
